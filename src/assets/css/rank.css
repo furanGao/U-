@@ -1,0 +1,74 @@
+.rank .hotTop {
+    width: 100%;
+    height: 2.9rem;
+    /*background: url(//s3.music.126.net/mobile-new/img/hot_music_bg_2x.jpg?f01a252389c26bcf016816242eaa6aee=) no-repeat;;*/
+}
+.rank .hotTop img{
+    /*margin-left: .4rem;*/
+    height: 2.9rem;
+    /*width: 3.4rem;*/
+    width: 100%;
+}
+.rank .remd_newsg{
+    position: relative;
+    min-height: .4rem;
+}
+.rank .remd_newsg .songList{
+    display: flex;
+    padding-left: .2rem;
+}
+.rank .remd_newsg .num{
+    display: flex;
+    position: relative;
+    width: .8rem;
+    text-align: center;
+    font-size: 17px;
+    color: #999;
+    line-height: 1rem;
+}
+.rank .remd_newsg .sgfr{
+    flex: 1 1 auto;
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.rank .remd_newsg .sgfr .left{
+    padding: .12rem 0;
+    width: 100%;
+}
+.rank .remd_newsg .sgfr .left .title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+    font-size: .34rem;
+}
+.rank .remd_newsg .sgfr .left .info{
+    font-size: .24rem;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: normal;
+}
+.rank .remd_newsg .sgfr .left .info i{
+    display: inline-block;
+    width: .24rem;
+    height: .16rem;
+    margin-right: 4px;
+    background: url(//s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28…=) no-repeat;
+    background-size: 166px 97px;
+}
+.rank .remd_newsg .sgfr .right{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.rank .remd_newsg .sgfr .right span{
+    display: inline-block;
+    width: .44rem;
+    height: .44rem;
+    background: url(//s3.music.126.net/mobile-new/img/index_icon_2x.png?5207a28…=) no-repeat;
+    background-position: -24px 0;
+    background-size: 166px 97px;
+}

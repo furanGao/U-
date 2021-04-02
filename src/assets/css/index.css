@@ -1,0 +1,79 @@
+/* 头部 */
+.index .topbar{
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding-bottom: 1.68rem;
+}
+.index .topfix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    height: 1.68rem;
+    background-color: #d43c33;
+    box-sizing: border-box;
+    line-height: 1.68rem;
+}
+.index .topfix .topfl{
+    position: relative;
+    width: 142px;
+    height: 25px;
+}
+.index .topfix .topsvg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 142px;
+    height: 25px;
+}
+.index .topfix .topfl span{
+    font-size: .4rem;
+    color: #fff;
+    position: absolute;
+    left: .6rem;
+    top: -.6rem;
+}
+.index .topfix .topfr span{
+    position: relative;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    width: 100px;
+    text-align: center;
+    color: #d43c33;
+    background-color: #fff;
+    border-radius: 37.5%/100%
+}
+/* 路由导航 */
+.index .home{
+    padding-top: .8rem;
+}
+.index .navBar{
+    position: fixed;
+    top: 1.68rem;
+    left: 0;
+    z-index: 100;
+    height: 0.8rem;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+}
+.navBar a{
+    flex: 1;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+
+.active{
+    color: #DD001B !important;
+}
